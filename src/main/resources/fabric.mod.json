@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "NeuclearGenerators",
+  "version": "${version}",
+  "name": "Advanced Neuclear Generators",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/NeuclearGenerators/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "gamma02.neucleargenerators.client.NeuclearGeneratorsClient"
+    ],
+    "main": [
+      "gamma02.neucleargenerators.NeuclearGenerators"
+    ]
+  },
+  "mixins": [
+    "NeuclearGenerators.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
