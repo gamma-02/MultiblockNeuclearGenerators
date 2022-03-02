@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "NeuclearGenerators",
+  "id": "multiblock_neuclear_generators",
   "version": "${version}",
   "name": "Advanced Neuclear Generators",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/NeuclearGenerators/icon.png",
+  "icon": "assets/multiblock_neuclear_generators/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
